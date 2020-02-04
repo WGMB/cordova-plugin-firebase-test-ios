@@ -116,7 +116,6 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 		<framework custom="true" src="src/ios/Firebase/Performance/FirebasePerformance.framework" />
 		<framework custom="true" src="src/ios/Firebase/Performance/FirebaseABTesting.framework" />
 		<framework custom="true" src="src/ios/Firebase/Performance/FirebaseRemoteConfig.framework" />
-		<framework custom="true" src="src/ios/Firebase/Performance/GTMSessionFetcher.framework" />
 		<framework custom="true" src="src/ios/Firebase/Performance/Protobuf.framework" />
 		
 		<framework custom="true" src="src/ios/Firebase/RemoteConfig/Protobuf.framework" />
