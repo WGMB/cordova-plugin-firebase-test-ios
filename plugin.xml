@@ -92,19 +92,33 @@ xmlns:android="http://schemas.android.com/apk/res/android">
 
 		<framework custom="true" src="src/ios/Crashlytics/Crashlytics.framework" />
 		<framework custom="true" src="src/ios/Crashlytics/Fabric.framework" />
-		<framework custom="true" src="src/ios/Firebase/Analytics/GoogleAppMeasurement.framework" />
-		<framework custom="true" src="src/ios/Firebase/Analytics/MeasurementNanoPB.framework" />
-		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCore.framework" />
+		
+		<framework custom="true" src="src/ios/Firebase/Analytics/FIRAnalyticsConnector.framework" />
 		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseAnalytics.framework" />
+		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCore.framework" />
+		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCoreDiagnostics.framework" />
+		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseInstallations.framework" />
+		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseInstanceID.framework" />
+		<framework custom="true" src="src/ios/Firebase/Analytics/GoogleAppMeasurement.framework" />
+		<framework custom="true" src="src/ios/Firebase/Analytics/GoogleDataTransport.framework" />
+		<framework custom="true" src="src/ios/Firebase/Analytics/GoogleDataTransportCCTSupport.framework" />
 		<framework custom="true" src="src/ios/Firebase/Analytics/GoogleUtilities.framework" />
 		<framework custom="true" src="src/ios/Firebase/Analytics/nanopb.framework" />
-		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseInstanceID.framework" />
-		<framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCoreDiagnostics.framework" />
+		<framework custom="true" src="src/ios/Firebase/Analytics/PromisesObjC.framework" />
+		
 		<framework custom="true" src="src/ios/Firebase/Auth/GTMSessionFetcher.framework" />
 		<framework custom="true" src="src/ios/Firebase/Auth/FirebaseAuth.framework" />
+		
 		<framework custom="true" src="src/ios/Firebase/Messaging/FirebaseMessaging.framework" />
+		<framework custom="true" src="src/ios/Firebase/Messaging/Protobuf.framework" />
+		
 		<framework custom="true" src="src/ios/Firebase/Performance/GoogleToolboxForMac.framework" />
 		<framework custom="true" src="src/ios/Firebase/Performance/FirebasePerformance.framework" />
+		<framework custom="true" src="src/ios/Firebase/Performance/FirebaseABTesting.framework" />
+		<framework custom="true" src="src/ios/Firebase/Performance/FirebaseRemoteConfig.framework" />
+		<framework custom="true" src="src/ios/Firebase/Performance/GTMSessionFetcher.framework" />
+		<framework custom="true" src="src/ios/Firebase/Performance/Protobuf.framework" />
+		
 		<framework custom="true" src="src/ios/Firebase/RemoteConfig/Protobuf.framework" />
 		<framework custom="true" src="src/ios/Firebase/RemoteConfig/FirebaseRemoteConfig.framework" />
 		<framework custom="true" src="src/ios/Firebase/RemoteConfig/FirebaseABTesting.framework" />
